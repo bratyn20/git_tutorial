@@ -1,0 +1,5 @@
+git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git revert HEAD Отмена последнего коммита
+git reset --hard v1 сброс ветки до тега v1
+git tag -d <nametag> удаление тега
+git commit --amend -m "Add an author/email comment" изменение последнего коммита
