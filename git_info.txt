@@ -3,3 +3,5 @@ git revert HEAD Отмена последнего коммита
 git reset --hard v1 сброс ветки до тега v1
 git tag -d <nametag> удаление тега
 git commit --amend -m "Add an author/email comment" изменение последнего коммита
+
+git clone <url> создать копию на локальной машине
