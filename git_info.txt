@@ -1,3 +1,6 @@
+﻿tutorial git install
+https://hyperhost.ua/info/ru/ustanovka-git-na-os-windows
+
 git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 git revert HEAD Отмена последнего коммита
 git reset --hard v1 сброс ветки до тега v1
