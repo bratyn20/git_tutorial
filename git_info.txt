@@ -1,6 +1,10 @@
 ﻿tutorial git install
 https://hyperhost.ua/info/ru/ustanovka-git-na-os-windows
 
+Настройки при первом запуске git
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+
 git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 git revert HEAD Отмена последнего коммита
 git reset --hard v1 сброс ветки до тега v1
